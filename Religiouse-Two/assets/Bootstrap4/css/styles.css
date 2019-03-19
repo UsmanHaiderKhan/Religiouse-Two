@@ -111,6 +111,8 @@ html, body {
     position: absolute;
     height: 5px;
     width: 68%;
+    top: 55px;
+    left: 21px;
     color: #02c661 !important;
     font-family: 'Industry-Bold';
     background: #02c661;
@@ -484,6 +486,19 @@ html, body {
     width: auto;
 }
 
+.icon-setting {
+    opacity: 0.4;
+    margin-left: 8%;
+}
+
+.text-setting {
+    bottom: -44px;
+    right: -19px;
+    opacity: .4;
+    font-size: 18rem;
+    font-family: 'Industry-Bold';
+}
+
 #slider-section .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     width: 12px;
     height: 12px;
@@ -631,6 +646,7 @@ html, body {
 .news-text {
     color: #000000;
     font-size: 50px;
+    text-transform: uppercase;
     font-family: 'Industry-Bold';
 }
 
@@ -645,10 +661,10 @@ html, body {
         background-image: -moz-linear-gradient( 180deg, rgb(60,184,120) 0%, rgb(60,165,184) 25%, rgb(60,110,184) 50%, rgb(83,60,184) 75%, rgb(142,60,184) 100%);
         background-image: -webkit-linear-gradient( 180deg, rgb(60,184,120) 0%, rgb(60,165,184) 25%, rgb(60,110,184) 50%, rgb(83,60,184) 75%, rgb(142,60,184) 100%);
         background-image: -ms-linear-gradient( 180deg, rgb(60,184,120) 0%, rgb(60,165,184) 25%, rgb(60,110,184) 50%, rgb(83,60,184) 75%, rgb(142,60,184) 100%);
-        width: 38%;
+        width: 44%;
         top: 65px;
         bottom: 0;
-        left: 31%;
+        left: 28%;
     }
 
 .card-position-relative {
@@ -1336,6 +1352,12 @@ button:focus {
 }
 
 @media screen and (max-width: 1024px) {
+    .text-setting {
+        bottom: -26px;
+        right: 0px;
+        font-size: 14rem;
+    }
+
     #top-nav {
         padding: 20px 36px 0px 69px;
     }
@@ -1682,14 +1704,366 @@ button:focus {
 }
 
 @media screen and (max-width: 800px) {
-}
+    .media-nav-mt {
+        margin-top: 20px;
+    }
 
-@media screen and (max-width: 768px) {
+    .absolute-class {
+        position: absolute;
+        bottom: 0;
+        top: 28px;
+        right: 31px;
+    }
+
     #top-nav {
-        padding: 20px 36px 0px 69px;
+        padding: 20px 36px 0px 246px;
+    }
+
+    .logo-none {
+        display: block;
+    }
+
+    .media-display {
+        display: none;
+    }
+
+    .sleep {
+        padding: 3px 7px 0px 7px;
+    }
+
+    #header-nav .active:after {
+        content: '';
+        width: 14%;
+        top: 94%;
+        left: 19px;
+    }
+
+    #header-nav .active:before {
+        content: '';
+        width: 14%;
+    }
+
+    .scroll-logo-width {
+        width: 35% !important;
+    }
+
+    .media-logo-width {
+        width: 35%;
+    }
+
+    .media-nav-padding {
+        padding: 0 15px 0 4px !important;
+    }
+
+    .main-banner-text {
+        font-size: 60px;
+    }
+
+    .banner-sub-text {
+        font-size: 50px;
+    }
+
+    .btn-main-contact {
+        width: 150px;
+        height: 55px;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 43px;
+        left: -30px;
+    }
+
+    .media-timer-padding {
+        padding: 0 0px;
+    }
+
+    .btn-box {
+        width: 134px;
+        height: 54px;
+        left: 39%;
+        border: 3px solid #ffffff;
+    }
+
+    .event-text {
+        font-size: 25px;
+    }
+
+    .event-pera {
+        font-size: 16px;
+    }
+
+    .media-time-mt {
+        margin-top: 30px;
+    }
+
+    .time-count {
+        font-size: 25px;
+    }
+
+    .time-desc-text {
+        font-size: 23px;
+    }
+
+    .outline-circle {
+        padding: 5px;
+        width: 132px;
+        height: 132px;
+    }
+
+    .time-bg-color {
+        padding: 12px 12px;
+        height: 103px;
+        width: 103px
+    }
+
+    .img-frame {
+        padding: 175px;
+        width: 60%;
+        height: 96%;
+    }
+
+    .welcome-style {
+        font-size: 22px;
+    }
+
+    .intro-text {
+        font-size: 22px;
+    }
+
+    .padding-left {
+        padding: 0 14px 0 20px;
+    }
+
+    .intro-sub-heading {
+        font-size: 17px;
+    }
+
+    .intro-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 50px;
+    }
+
+    .btn-known {
+        position: absolute;
+        width: 137px;
+        height: 49px;
+        line-height: 32px;
+    }
+
+    .btn-wrapper {
+        width: 135px;
+        height: 39px;
+        left: 3%;
+        border: 2px solid #007b76;
+    }
+
+    #slider-section .owl-carousel .owl-item img {
+        margin-left: 22%;
+        width: 58%;
+    }
+
+    .name-text {
+        font-size: 26px;
+    }
+
+    .profession-text {
+        font-size: 22px;
+    }
+
+    .slider-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .islamic-piller {
+        font-size: 28px;
+    }
+
+    .below-piller:after {
+        width: 28%;
+        top: 41px;
+        left: 36%;
+    }
+
+    #piller-section {
+        padding: 20px 23px;
+    }
+
+    .piller-desc {
+        font-size: 17px;
+    }
+
+    .p-200 {
+        padding: auto;
+    }
+
+    .mt-83 {
+        margin-top: 28px;
+    }
+
+    .mt-41 {
+        margin-top: 28px;
+    }
+
+    .media-salat-mt {
+        margin-top: 28px;
+    }
+
+    .salat-time-position-absolute {
+        right: 210px;
+        top: 129px;
+    }
+
+    .mt-35 {
+        margin-top: 62px;
+    }
+
+    #salat-time-table {
+        padding: 54px 68px 54px 265px
     }
 
     .salat-text {
+        font-size: 28px;
+    }
+
+    .salat-texts {
+        font-size: 28px;
+    }
+
+    .salat-time {
+        font-size: 27px;
+    }
+
+    .time-table-mt {
+        margin-top: 30px;
+    }
+
+    .news-text {
+        font-size: 30px;
+    }
+
+    .below-blog:after {
+        width: 26%;
+        top: 49px;
+        left: 37%;
+    }
+
+    .piller-desc {
+        font-size: 15px;
+    }
+
+    .mt-50 {
+        margin-top: 0;
+    }
+
+    .month-text {
+        font-size: 18px;
+    }
+
+    .date-text {
+        font-size: 18px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .card-position-absolute {
+        bottom: 304px;
+        left: 18px;
+    }
+
+    .calender-bg-color {
+        padding: 10px 20px 0px 20px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 47px;
+        font-size: 16px;
+    }
+
+    .btn-load-box {
+        width: 150px;
+        height: 45px;
+        left: 191%;
+    }
+
+    .location-text {
+        font-size: 16px;
+    }
+
+    .card-desc-text {
+        font-size: 15px;
+    }
+
+    .below-connected:after {
+        width: 12%;
+        top: 45px;
+        left: 46%;
+    }
+
+    .connected-text {
+        font-size: 28px;
+    }
+
+    #contact {
+        padding: 40px 0;
+    }
+
+    .input-name {
+        height: 58px;
+    }
+
+    .btn-send {
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .mos-location {
+        font-size: 14px;
+    }
+
+    .cell-no-text {
+        font-size: 14px;
+    }
+
+    .footer-font {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fa-6x {
+        font-size: 4.5em;
+    }
+
+    /*.icon-setting {
+        margin-left: 10%;
+    }*/
+
+    .text-setting {
+        bottom: 31px;
+        right: -19px;
+        opacity: .4;
+        font-size: 15rem;
+    }
+
+    #top-nav {
+        padding: 20px 36px 0px 246px;
+    }
+
+    .salat-text {
+        font-size: 28px;
+    }
+
+    .salat-texts {
         font-size: 28px;
     }
 
@@ -2023,6 +2397,15 @@ button:focus {
 }
 
 @media screen and (max-width: 414px) {
+    .text-setting {
+        right: 0px;
+        font-size: 16rem;
+    }
+
+    .icon-setting {
+        margin-left: 8%;
+    }
+
     .absolute-class {
         position: absolute;
         bottom: 0;
@@ -2352,6 +2735,11 @@ button:focus {
 }
 
 @media screen and (max-width: 411px) {
+    .text-setting {
+        bottom: -15px;
+        font-size: 12rem;
+        right: 25px;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -3003,34 +3391,295 @@ button:focus {
 }
 
 @media screen and (max-width: 823px) and (orientation: landscape) {
-}
+    .fa-6x {
+        font-size: 4em;
+    }
 
-@media screen and (max-width: 740px) and (orientation: landscape) {
-}
+    .media-nav-mt {
+        margin-top: 20px;
+    }
 
-@media screen and (max-width: 736px) and (orientation: landscape) {
-}
+    .text-setting {
+        bottom: -33px;
+        right: 0px;
+    }
 
-@media screen and (max-width: 731px) and (orientation: landscape) {
-}
 
-@media screen and (max-width: 667px) and (orientation: landscape) {
-}
 
-@media screen and (max-width: 640px) and (orientation: landscape) {
+    #top-nav {
+        padding: 20px 36px 0px 286px;
+    }
+
+    .logo-none {
+        display: block;
+    }
+
+    .media-display {
+        display: none;
+    }
+
+    .sleep {
+        padding: 3px 7px 0px 7px;
+    }
+
+    #header-nav .active:after {
+        content: '';
+        width: 14%;
+        top: 94%;
+        left: 19px;
+    }
+
+    #header-nav .active:before {
+        content: '';
+        width: 14%;
+    }
+
+    .scroll-logo-width {
+        width: 35% !important;
+    }
+
+    .media-logo-width {
+        width: 35%;
+    }
+
+    .media-nav-padding {
+        padding: 0 15px 0 4px !important;
+    }
+
+    .main-banner-text {
+        font-size: 60px;
+    }
+
+    .banner-sub-text {
+        font-size: 50px;
+    }
+
+    .btn-main-contact {
+        width: 150px;
+        height: 55px;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 43px;
+        left: -30px;
+    }
+
+    .media-timer-padding {
+        padding: 0 0px;
+    }
+
+    .btn-box {
+        width: 134px;
+        height: 54px;
+        left: 39%;
+        border: 3px solid #ffffff;
+    }
+
+    .event-text {
+        font-size: 25px;
+    }
+
+    .event-pera {
+        font-size: 16px;
+    }
+
+    .media-time-mt {
+        margin-top: 30px;
+    }
+
+    .time-count {
+        font-size: 25px;
+    }
+
+    .time-desc-text {
+        font-size: 23px;
+    }
+
+    .outline-circle {
+        padding: 5px;
+        width: 132px;
+        height: 132px;
+    }
+
+    .time-bg-color {
+        padding: 12px 12px;
+        height: 103px;
+        width: 103px
+    }
+
+    .media-align-frame {
+        text-align: center;
+    }
+
     .absolute-class {
         position: absolute;
         bottom: 0;
         top: 28px;
-        right: 31px;
+        left: 152px;
+        right: 23px;
+    }
+
+    .img-frame {
+        padding: 180px;
+        width: 2%;
+        height: 96%;
+    }
+
+    .welcome-style {
+        font-size: 22px;
+    }
+
+    .intro-text {
+        font-size: 22px;
+    }
+
+    .padding-left {
+        padding: 0 14px 0 20px;
+    }
+
+    .intro-sub-heading {
+        font-size: 17px;
+    }
+
+    .intro-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 50px;
+    }
+
+    .btn-known {
+        position: absolute;
+        width: 137px;
+        height: 49px;
+        line-height: 32px;
+    }
+
+    .btn-wrapper {
+        width: 135px;
+        height: 39px;
+        left: 3%;
+        border: 2px solid #007b76;
+    }
+
+    #slider-section .owl-carousel .owl-item img {
+        margin-left: 22%;
+        width: 58%;
+    }
+
+    .name-text {
+        font-size: 26px;
+    }
+
+    .profession-text {
+        font-size: 22px;
+    }
+
+    .slider-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .islamic-piller {
+        font-size: 28px;
+    }
+
+    .below-piller:after {
+        width: 28%;
+        top: 41px;
+        left: 36%;
+    }
+
+    #piller-section {
+        padding: 20px 23px;
+    }
+
+    .piller-desc {
+        font-size: 17px;
+    }
+
+    .p-200 {
+        padding: auto;
+    }
+
+    .mt-83 {
+        margin-top: 28px;
+    }
+
+    .mt-41 {
+        margin-top: 28px;
+    }
+
+    .media-salat-mt {
+        margin-top: 28px;
+    }
+
+    .salat-time-position-absolute {
+        right: 210px;
+        top: 129px;
+    }
+
+    .mt-35 {
+        margin-top: 62px;
+    }
+
+    #salat-time-table {
+        padding: 54px 68px 54px 280px
     }
 
     .salat-text {
         font-size: 28px;
     }
 
+    .salat-texts {
+        font-size: 28px;
+    }
+
     .salat-time {
         font-size: 27px;
+    }
+
+    .time-table-mt {
+        margin-top: 30px;
+    }
+
+    .news-text {
+        font-size: 30px;
+    }
+
+    .below-blog:after {
+        width: 26%;
+        top: 49px;
+        left: 37%;
+    }
+
+    .piller-desc {
+        font-size: 15px;
+    }
+
+    .mt-50 {
+        margin-top: 0;
+    }
+
+    .month-text {
+        font-size: 18px;
+    }
+
+    .date-text {
+        font-size: 18px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .card-position-absolute {
+        bottom: 304px;
+        left: 18px;
     }
 
     .calender-bg-color {
@@ -3046,16 +3695,1078 @@ button:focus {
     .btn-load-box {
         width: 150px;
         height: 45px;
-        left: 92%;
+        left: 191%;
     }
 
     .location-text {
         font-size: 16px;
     }
 
+    .card-desc-text {
+        font-size: 15px;
+    }
+
+    .below-connected:after {
+        width: 12%;
+        top: 45px;
+        left: 46%;
+    }
+
+    .connected-text {
+        font-size: 28px;
+    }
+
+    #contact {
+        padding: 40px 0;
+    }
+
+    .input-name {
+        height: 58px;
+    }
+
+    .btn-send {
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .mos-location {
+        font-size: 14px;
+    }
+
+    .cell-no-text {
+        font-size: 14px;
+    }
+
+    .footer-font {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 740px) and (orientation: landscape) {
+    .text-setting {
+        bottom: -52px;
+        right: 56px;
+    }
+
+
 
     #top-nav {
-        padding: 20px 36px 0px 69px;
+        padding: 20px 36px 0px 246px;
+    }
+
+    .logo-none {
+        display: block;
+    }
+
+    .media-display {
+        display: none;
+    }
+
+    .sleep {
+        padding: 3px 7px 0px 7px;
+    }
+
+    #header-nav .active:after {
+        content: '';
+        width: 17%;
+        top: 94%;
+        left: 19px;
+    }
+
+    #header-nav .active:before {
+        content: '';
+        width: 17%;
+    }
+
+    .scroll-logo-width {
+        width: 35% !important;
+    }
+
+    .media-logo-width {
+        width: 35%;
+    }
+
+    .media-nav-padding {
+        padding: 0 15px 0 4px !important;
+    }
+
+    .main-banner-text {
+        font-size: 58px;
+    }
+
+    .banner-sub-text {
+        font-size: 46px;
+    }
+
+    .btn-main-contact {
+        width: 150px;
+        height: 55px;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 43px;
+        left: -30px;
+    }
+
+    .media-timer-padding {
+        padding: 0 181px;
+    }
+
+    .btn-box {
+        width: 134px;
+        height: 54px;
+        left: 39%;
+        border: 3px solid #ffffff;
+    }
+
+    .event-text {
+        font-size: 25px;
+    }
+
+    .event-pera {
+        font-size: 16px;
+    }
+
+    .media-time-mt {
+        margin-top: 30px;
+    }
+
+    .time-count {
+        font-size: 25px;
+    }
+
+    .time-desc-text {
+        font-size: 23px;
+    }
+
+    .outline-circle {
+        padding: 5px;
+        width: 132px;
+        height: 132px;
+    }
+
+    .time-bg-color {
+        padding: 12px 12px;
+        height: 103px;
+        width: 103px
+    }
+
+    .absolute-class {
+        position: absolute;
+        bottom: 0;
+        top: 28px;
+        left: 152px;
+        right: 23px;
+    }
+
+    .img-frame {
+        padding: 180px;
+        width: 2%;
+        height: 96%;
+    }
+
+    .welcome-style {
+        font-size: 22px;
+    }
+
+    .intro-text {
+        font-size: 22px;
+    }
+
+    .padding-left {
+        padding: 0 14px 0 20px;
+    }
+
+    .intro-sub-heading {
+        font-size: 17px;
+    }
+
+    .intro-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 50px;
+    }
+
+    .btn-known {
+        position: absolute;
+        width: 137px;
+        height: 49px;
+        line-height: 32px;
+    }
+
+    .btn-wrapper {
+        width: 135px;
+        height: 39px;
+        left: 3%;
+        border: 2px solid #007b76;
+    }
+
+    #slider-section .owl-carousel .owl-item img {
+        margin-left: 35%;
+        width: 31%;
+    }
+
+    .name-text {
+        font-size: 26px;
+    }
+
+    .profession-text {
+        font-size: 22px;
+    }
+
+    .slider-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .islamic-piller {
+        font-size: 28px;
+    }
+
+    .below-piller:after {
+        width: 28%;
+        top: 41px;
+        left: 36%;
+    }
+
+    #piller-section {
+        padding: 20px 23px;
+    }
+
+    .piller-desc {
+        font-size: 17px;
+    }
+
+    .p-200 {
+        padding: 0 0px 0 190px;
+    }
+
+    .mt-83 {
+        margin-top: 28px;
+    }
+
+    .mt-41 {
+        margin-top: 28px;
+    }
+
+    .media-salat-mt {
+        margin-top: 28px;
+    }
+
+    .salat-time-position-absolute {
+        right: 177px;
+        top: 129px;
+    }
+
+    .mt-35 {
+        margin-top: 62px;
+    }
+
+    #salat-time-table {
+        padding: 54px 68px 54px 225px
+    }
+
+    .salat-text {
+        font-size: 28px;
+    }
+
+    .salat-texts {
+        font-size: 28px;
+    }
+
+    .salat-time {
+        font-size: 27px;
+    }
+
+    .time-table-mt {
+        margin-top: 30px;
+    }
+
+    .news-text {
+        font-size: 30px;
+    }
+
+    .below-blog:after {
+        width: 26%;
+        top: 49px;
+        left: 37%;
+    }
+
+    .piller-desc {
+        font-size: 15px;
+    }
+
+    .mt-50 {
+        margin-top: 0;
+    }
+
+    .month-text {
+        font-size: 18px;
+    }
+
+    .date-text {
+        font-size: 18px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .card-position-absolute {
+        bottom: 197px;
+        left: 18px;
+    }
+
+    .calender-bg-color {
+        padding: 10px 20px 0px 20px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 47px;
+        font-size: 16px;
+    }
+
+    .btn-load-box {
+        width: 150px;
+        height: 45px;
+        left: 132%;
+    }
+
+    .location-text {
+        font-size: 16px;
+    }
+
+    .card-desc-text {
+        font-size: 15px;
+    }
+
+    .below-connected:after {
+        width: 12%;
+        top: 45px;
+        left: 46%;
+    }
+
+    .connected-text {
+        font-size: 28px;
+    }
+
+    #contact {
+        padding: 40px 0;
+    }
+
+    .input-name {
+        height: 50px;
+    }
+
+    .btn-send {
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .mos-location {
+        font-size: 16px;
+    }
+
+    .cell-no-text {
+        font-size: 16px;
+    }
+
+    .footer-font {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .text-setting {
+        bottom: -52px;
+        right: 56px;
+    }
+
+
+
+    #top-nav {
+        padding: 20px 36px 0px 246px;
+    }
+
+    .logo-none {
+        display: block;
+    }
+
+    .media-display {
+        display: none;
+    }
+
+    .sleep {
+        padding: 3px 7px 0px 7px;
+    }
+
+    #header-nav .active:after {
+        content: '';
+        width: 17%;
+        top: 94%;
+        left: 19px;
+    }
+
+    #header-nav .active:before {
+        content: '';
+        width: 17%;
+    }
+
+    .scroll-logo-width {
+        width: 35% !important;
+    }
+
+    .media-logo-width {
+        width: 35%;
+    }
+
+    .media-nav-padding {
+        padding: 0 15px 0 4px !important;
+    }
+
+    .main-banner-text {
+        font-size: 58px;
+    }
+
+    .banner-sub-text {
+        font-size: 46px;
+    }
+
+    .btn-main-contact {
+        width: 150px;
+        height: 55px;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 43px;
+        left: -30px;
+    }
+
+    .media-timer-padding {
+        padding: 0 181px;
+    }
+
+    .btn-box {
+        width: 134px;
+        height: 54px;
+        left: 39%;
+        border: 3px solid #ffffff;
+    }
+
+    .event-text {
+        font-size: 25px;
+    }
+
+    .event-pera {
+        font-size: 16px;
+    }
+
+    .media-time-mt {
+        margin-top: 30px;
+    }
+
+    .time-count {
+        font-size: 25px;
+    }
+
+    .time-desc-text {
+        font-size: 23px;
+    }
+
+    .outline-circle {
+        padding: 5px;
+        width: 132px;
+        height: 132px;
+    }
+
+    .time-bg-color {
+        padding: 12px 12px;
+        height: 103px;
+        width: 103px
+    }
+
+    .absolute-class {
+        position: absolute;
+        bottom: 0;
+        top: 28px;
+        left: 60px;
+        right: 23px;
+    }
+
+    .img-frame {
+        padding: 180px;
+        width: 2%;
+        height: 96%;
+    }
+
+    .welcome-style {
+        font-size: 22px;
+    }
+
+    .intro-text {
+        font-size: 22px;
+    }
+
+    .padding-left {
+        padding: 0 14px 0 20px;
+    }
+
+    .intro-sub-heading {
+        font-size: 17px;
+    }
+
+    .intro-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 50px;
+    }
+
+    .btn-known {
+        position: absolute;
+        width: 137px;
+        height: 49px;
+        line-height: 32px;
+    }
+
+    .btn-wrapper {
+        width: 135px;
+        height: 39px;
+        left: 3%;
+        border: 2px solid #007b76;
+    }
+
+    #slider-section .owl-carousel .owl-item img {
+        margin-left: 35%;
+        width: 31%;
+    }
+
+    .name-text {
+        font-size: 26px;
+    }
+
+    .profession-text {
+        font-size: 22px;
+    }
+
+    .slider-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .islamic-piller {
+        font-size: 28px;
+    }
+
+    .below-piller:after {
+        width: 28%;
+        top: 41px;
+        left: 36%;
+    }
+
+    #piller-section {
+        padding: 20px 23px;
+    }
+
+    .piller-desc {
+        font-size: 17px;
+    }
+
+    .p-200 {
+        padding: 0 0px 0 190px;
+    }
+
+    .mt-83 {
+        margin-top: 28px;
+    }
+
+    .mt-41 {
+        margin-top: 28px;
+    }
+
+    .media-salat-mt {
+        margin-top: 28px;
+    }
+
+    .salat-time-position-absolute {
+        right: 177px;
+        top: 129px;
+    }
+
+    .mt-35 {
+        margin-top: 62px;
+    }
+
+    #salat-time-table {
+        padding: 54px 68px 54px 225px
+    }
+
+    .salat-text {
+        font-size: 28px;
+    }
+
+    .salat-texts {
+        font-size: 28px;
+    }
+
+    .salat-time {
+        font-size: 27px;
+    }
+
+    .time-table-mt {
+        margin-top: 30px;
+    }
+
+    .news-text {
+        font-size: 30px;
+    }
+
+    .below-blog:after {
+        width: 26%;
+        top: 49px;
+        left: 37%;
+    }
+
+    .piller-desc {
+        font-size: 15px;
+    }
+
+    .mt-50 {
+        margin-top: 0;
+    }
+
+    .month-text {
+        font-size: 18px;
+    }
+
+    .date-text {
+        font-size: 18px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .card-position-absolute {
+        bottom: 197px;
+        left: 18px;
+    }
+
+    .calender-bg-color {
+        padding: 10px 20px 0px 20px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 47px;
+        font-size: 16px;
+    }
+
+    .btn-load-box {
+        width: 150px;
+        height: 45px;
+        left: 132%;
+    }
+
+    .location-text {
+        font-size: 16px;
+    }
+
+    .card-desc-text {
+        font-size: 15px;
+    }
+
+    .below-connected:after {
+        width: 12%;
+        top: 45px;
+        left: 46%;
+    }
+
+    .connected-text {
+        font-size: 28px;
+    }
+
+    #contact {
+        padding: 40px 0;
+    }
+
+    .input-name {
+        height: 50px;
+    }
+
+    .btn-send {
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .mos-location {
+        font-size: 16px;
+    }
+
+    .cell-no-text {
+        font-size: 16px;
+    }
+
+    .footer-font {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 731px) and (orientation: landscape) {
+    .text-setting {
+        bottom: -52px;
+        right: 56px;
+    }
+
+
+
+    #top-nav {
+        padding: 20px 36px 0px 246px;
+    }
+
+    .logo-none {
+        display: block;
+    }
+
+    .media-display {
+        display: none;
+    }
+
+    .sleep {
+        padding: 3px 7px 0px 7px;
+    }
+
+    #header-nav .active:after {
+        content: '';
+        width: 17%;
+        top: 94%;
+        left: 19px;
+    }
+
+    #header-nav .active:before {
+        content: '';
+        width: 17%;
+    }
+
+    .scroll-logo-width {
+        width: 35% !important;
+    }
+
+    .media-logo-width {
+        width: 35%;
+    }
+
+    .media-nav-padding {
+        padding: 0 15px 0 4px !important;
+    }
+
+    .main-banner-text {
+        font-size: 58px;
+    }
+
+    .banner-sub-text {
+        font-size: 46px;
+    }
+
+    .btn-main-contact {
+        width: 150px;
+        height: 55px;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 43px;
+        left: -30px;
+    }
+
+    .media-timer-padding {
+        padding: 0 181px;
+    }
+
+    .btn-box {
+        width: 134px;
+        height: 54px;
+        left: 39%;
+        border: 3px solid #ffffff;
+    }
+
+    .event-text {
+        font-size: 25px;
+    }
+
+    .event-pera {
+        font-size: 16px;
+    }
+
+    .media-time-mt {
+        margin-top: 30px;
+    }
+
+    .time-count {
+        font-size: 25px;
+    }
+
+    .time-desc-text {
+        font-size: 23px;
+    }
+
+    .outline-circle {
+        padding: 5px;
+        width: 132px;
+        height: 132px;
+    }
+
+    .time-bg-color {
+        padding: 12px 12px;
+        height: 103px;
+        width: 103px
+    }
+
+    .absolute-class {
+        position: absolute;
+        bottom: 0;
+        top: 28px;
+        left: 60px;
+        right: 23px;
+    }
+
+    .img-frame {
+        padding: 180px;
+        width: 2%;
+        height: 96%;
+    }
+
+    .welcome-style {
+        font-size: 22px;
+    }
+
+    .intro-text {
+        font-size: 22px;
+    }
+
+    .padding-left {
+        padding: 0 14px 0 20px;
+    }
+
+    .intro-sub-heading {
+        font-size: 17px;
+    }
+
+    .intro-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 50px;
+    }
+
+    .btn-known {
+        position: absolute;
+        width: 137px;
+        height: 49px;
+        line-height: 32px;
+    }
+
+    .btn-wrapper {
+        width: 135px;
+        height: 39px;
+        left: 3%;
+        border: 2px solid #007b76;
+    }
+
+    #slider-section .owl-carousel .owl-item img {
+        margin-left: 35%;
+        width: 31%;
+    }
+
+    .name-text {
+        font-size: 26px;
+    }
+
+    .profession-text {
+        font-size: 22px;
+    }
+
+    .slider-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .islamic-piller {
+        font-size: 28px;
+    }
+
+    .below-piller:after {
+        width: 28%;
+        top: 41px;
+        left: 36%;
+    }
+
+    #piller-section {
+        padding: 20px 23px;
+    }
+
+    .piller-desc {
+        font-size: 17px;
+    }
+
+    .p-200 {
+        padding: 0 0px 0 190px;
+    }
+
+    .mt-83 {
+        margin-top: 28px;
+    }
+
+    .mt-41 {
+        margin-top: 28px;
+    }
+
+    .media-salat-mt {
+        margin-top: 28px;
+    }
+
+    .salat-time-position-absolute {
+        right: 177px;
+        top: 129px;
+    }
+
+    .mt-35 {
+        margin-top: 62px;
+    }
+
+    #salat-time-table {
+        padding: 54px 68px 54px 225px
+    }
+
+    .salat-text {
+        font-size: 28px;
+    }
+
+    .salat-texts {
+        font-size: 28px;
+    }
+
+    .salat-time {
+        font-size: 27px;
+    }
+
+    .time-table-mt {
+        margin-top: 30px;
+    }
+
+    .news-text {
+        font-size: 30px;
+    }
+
+    .below-blog:after {
+        width: 26%;
+        top: 49px;
+        left: 37%;
+    }
+
+    .piller-desc {
+        font-size: 15px;
+    }
+
+    .mt-50 {
+        margin-top: 0;
+    }
+
+    .month-text {
+        font-size: 18px;
+    }
+
+    .date-text {
+        font-size: 18px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .card-position-absolute {
+        bottom: 197px;
+        left: 18px;
+    }
+
+    .calender-bg-color {
+        padding: 10px 20px 0px 20px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 47px;
+        font-size: 16px;
+    }
+
+    .btn-load-box {
+        width: 150px;
+        height: 45px;
+        left: 132%;
+    }
+
+    .location-text {
+        font-size: 16px;
+    }
+
+    .card-desc-text {
+        font-size: 15px;
+    }
+
+    .below-connected:after {
+        width: 12%;
+        top: 45px;
+        left: 46%;
+    }
+
+    .connected-text {
+        font-size: 28px;
+    }
+
+    #contact {
+        padding: 40px 0;
+    }
+
+    .input-name {
+        height: 50px;
+    }
+
+    .btn-send {
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .mos-location {
+        font-size: 16px;
+    }
+
+    .cell-no-text {
+        font-size: 16px;
+    }
+
+    .footer-font {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+
+
+    #top-nav {
+        padding: 20px 36px 0px 210px;
     }
 
     .logo-none {
@@ -3119,7 +4830,7 @@ button:focus {
     .btn-box {
         width: 134px;
         height: 54px;
-        left: 32%;
+        left: 39%;
         border: 3px solid #ffffff;
     }
 
@@ -3155,9 +4866,18 @@ button:focus {
         width: 103px
     }
 
+
+    .absolute-class {
+        position: absolute;
+        bottom: 0;
+        top: 28px;
+        left: 60px;
+        right: 23px;
+    }
+
     .img-frame {
-        padding: 0px;
-        width: 85%;
+        padding: 180px;
+        width: 2%;
         height: 96%;
     }
 
@@ -3200,8 +4920,350 @@ button:focus {
     }
 
     #slider-section .owl-carousel .owl-item img {
-        margin-left: 29%;
-        width: 40%;
+        margin-left: 35%;
+        width: 31%;
+    }
+
+    .name-text {
+        font-size: 26px;
+    }
+
+    .profession-text {
+        font-size: 22px;
+    }
+
+    .slider-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-100 {
+        margin-top: 40px;
+    }
+
+    .islamic-piller {
+        font-size: 28px;
+    }
+
+    .below-piller:after {
+        width: 28%;
+        top: 41px;
+        left: 36%;
+    }
+
+    #piller-section {
+        padding: 20px 23px;
+    }
+
+    .piller-desc {
+        font-size: 17px;
+    }
+
+    .p-200 {
+        padding: 0 0px 0 190px;
+    }
+
+    .mt-83 {
+        margin-top: 28px;
+    }
+
+    .mt-41 {
+        margin-top: 28px;
+    }
+
+    .media-salat-mt {
+        margin-top: 28px;
+    }
+
+    .salat-time-position-absolute {
+        right: 138px;
+        top: 129px;
+    }
+
+    .mt-35 {
+        margin-top: 62px;
+    }
+
+    #salat-time-table {
+        padding: 54px 68px 54px 205px;
+    }
+
+    .salat-text {
+        font-size: 28px;
+    }
+
+    .salat-texts {
+        font-size: 28px;
+    }
+
+    .salat-time {
+        font-size: 27px;
+    }
+
+    .time-table-mt {
+        margin-top: 30px;
+    }
+
+    .news-text {
+        font-size: 30px;
+    }
+
+    .below-blog:after {
+        width: 26%;
+        top: 49px;
+        left: 37%;
+    }
+
+    .piller-desc {
+        font-size: 15px;
+    }
+
+    .mt-50 {
+        margin-top: 0;
+    }
+
+    .month-text {
+        font-size: 18px;
+    }
+
+    .date-text {
+        font-size: 18px;
+    }
+
+    .heading-text {
+        font-size: 18px;
+    }
+
+    .card-position-absolute {
+        bottom: 197px;
+        left: 18px;
+    }
+
+    .calender-bg-color {
+        padding: 10px 20px 0px 20px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 47px;
+        font-size: 16px;
+    }
+
+    .btn-load-box {
+        width: 150px;
+        height: 45px;
+        left: 132%;
+    }
+
+    .location-text {
+        font-size: 16px;
+    }
+
+    .card-desc-text {
+        font-size: 15px;
+    }
+
+    .below-connected:after {
+        width: 12%;
+        top: 45px;
+        left: 46%;
+    }
+
+    .connected-text {
+        font-size: 28px;
+    }
+
+    #contact {
+        padding: 40px 0;
+    }
+
+    .input-name {
+        height: 50px;
+    }
+
+    .btn-send {
+        font-size: 15px;
+        height: 50px;
+    }
+
+    .mos-location {
+        font-size: 16px;
+    }
+
+    .cell-no-text {
+        font-size: 16px;
+    }
+
+    .footer-font {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .text-setting {
+        bottom: -27px;
+        font-size: 12rem;
+        right: 56px;
+    }
+
+
+
+    #top-nav {
+        padding: 20px 36px 0px 200px;
+    }
+
+    .logo-none {
+        display: block;
+    }
+
+    .media-display {
+        display: none;
+    }
+
+    .sleep {
+        padding: 3px 7px 0px 7px;
+    }
+
+    #header-nav .active:after {
+        content: '';
+        width: 22%;
+        top: 94%;
+        left: 19px;
+    }
+
+    #header-nav .active:before {
+        content: '';
+        width: 22%;
+    }
+
+    .scroll-logo-width {
+        width: 35% !important;
+    }
+
+    .media-logo-width {
+        width: 35%;
+    }
+
+    .media-nav-padding {
+        padding: 0 15px 0 4px !important;
+    }
+
+    .main-banner-text {
+        font-size: 58px;
+    }
+
+    .banner-sub-text {
+        font-size: 46px;
+    }
+
+    .btn-main-contact {
+        width: 150px;
+        height: 55px;
+        font-size: 15px;
+        color: #ffffff;
+        font-weight: bold;
+        line-height: 43px;
+        left: -30px;
+    }
+
+    .media-timer-padding {
+        padding: 0 181px;
+    }
+
+    .btn-box {
+        width: 134px;
+        height: 54px;
+        left: 39%;
+        border: 3px solid #ffffff;
+    }
+
+    .event-text {
+        font-size: 25px;
+    }
+
+    .event-pera {
+        font-size: 16px;
+    }
+
+    .media-time-mt {
+        margin-top: 30px;
+    }
+
+    .time-count {
+        font-size: 25px;
+    }
+
+    .time-desc-text {
+        font-size: 23px;
+    }
+
+    .outline-circle {
+        padding: 5px;
+        width: 132px;
+        height: 132px;
+    }
+
+    .time-bg-color {
+        padding: 12px 12px;
+        height: 103px;
+        width: 103px
+    }
+
+
+    .absolute-class {
+        position: absolute;
+        bottom: 0;
+        top: 28px;
+        left: 60px;
+        right: 23px;
+    }
+
+    .img-frame {
+        padding: 180px;
+        width: 2%;
+        height: 96%;
+    }
+
+    .welcome-style {
+        font-size: 22px;
+    }
+
+    .intro-text {
+        font-size: 22px;
+    }
+
+    .padding-left {
+        padding: 0 14px 0 20px;
+    }
+
+    .intro-sub-heading {
+        font-size: 17px;
+    }
+
+    .intro-desc-text {
+        font-size: 16px;
+    }
+
+    .mt-90 {
+        margin-top: 50px;
+    }
+
+    .btn-known {
+        position: absolute;
+        width: 137px;
+        height: 49px;
+        line-height: 32px;
+    }
+
+    .btn-wrapper {
+        width: 135px;
+        height: 39px;
+        left: 3%;
+        border: 2px solid #007b76;
+    }
+
+    #slider-section .owl-carousel .owl-item img {
+        margin-left: 35%;
+        width: 31%;
     }
 
     .name-text {
@@ -3267,6 +5329,18 @@ button:focus {
         padding: 54px 68px 54px 180px;
     }
 
+    .salat-text {
+        font-size: 28px;
+    }
+
+    .salat-texts {
+        font-size: 28px;
+    }
+
+    .salat-time {
+        font-size: 27px;
+    }
+
     .time-table-mt {
         margin-top: 30px;
     }
@@ -3302,8 +5376,28 @@ button:focus {
     }
 
     .card-position-absolute {
-        bottom: 123px;
+        bottom: 197px;
         left: 18px;
+    }
+
+    .calender-bg-color {
+        padding: 10px 20px 0px 20px;
+    }
+
+    .btn-load-more {
+        width: 150px;
+        height: 47px;
+        font-size: 16px;
+    }
+
+    .btn-load-box {
+        width: 150px;
+        height: 45px;
+        left: 132%;
+    }
+
+    .location-text {
+        font-size: 16px;
     }
 
     .card-desc-text {
@@ -3311,8 +5405,9 @@ button:focus {
     }
 
     .below-connected:after {
-        width: 19%;
+        width: 12%;
         top: 45px;
+        left: 46%;
     }
 
     .connected-text {
