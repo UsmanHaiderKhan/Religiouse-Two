@@ -1704,6 +1704,10 @@ button:focus {
 }
 
 @media screen and (max-width: 800px) {
+    .media-piller-padding {
+        padding: 20px 23px 20px 130px;
+    }
+
     .media-nav-mt {
         margin-top: 20px;
     }
@@ -2397,6 +2401,10 @@ button:focus {
 }
 
 @media screen and (max-width: 414px) {
+    .media-piller-padding {
+        padding: 0px;
+    }
+
     .text-setting {
         right: 0px;
         font-size: 16rem;
@@ -3594,6 +3602,10 @@ button:focus {
         left: 36%;
     }
 
+    .media-piller-padding {
+        padding: 20px 23px 20px 130px;
+    }
+
     #piller-section {
         padding: 20px 23px;
     }
@@ -3748,6 +3760,9 @@ button:focus {
         right: 56px;
     }
 
+    .media-piller-padding {
+        padding: 0px;
+    }
 
 
     #top-nav {
@@ -4088,6 +4103,9 @@ button:focus {
         right: 56px;
     }
 
+    .media-piller-padding {
+        padding: 0px;
+    }
 
 
     #top-nav {
@@ -4428,7 +4446,9 @@ button:focus {
         right: 56px;
     }
 
-
+    .media-piller-padding {
+        padding: 0px;
+    }
 
     #top-nav {
         padding: 20px 36px 0px 246px;
@@ -5105,7 +5125,9 @@ button:focus {
         right: 56px;
     }
 
-
+    .media-piller-padding {
+        padding: 0px;
+    }
 
     #top-nav {
         padding: 20px 36px 0px 200px;
