@@ -253,7 +253,7 @@ $(function () {
 function makeTimer() {
 
     //      var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");  
-    var endTime = new Date("8 April 2019 9:56:00 GMT+01:00");
+    var endTime = new Date("28 May 2019 9:56:00 GMT+01:00");
     endTime = (Date.parse(endTime) / 1000);
 
     var now = new Date();
